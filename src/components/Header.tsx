@@ -1,7 +1,6 @@
 import logolight from "../assets/logo-light.png";
 import logodark from "../assets/logo-dark.png";
 import { useState } from "react";
-import { useLocation } from "react-router-dom";
 
 export const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,14 +8,8 @@ export const Header = () => {
         document.documentElement.classList.contains('dark')
     );
 
-    const location = useLocation();
-
     const handleMenuClick = () => {
         setIsMenuOpen(!isMenuOpen);
-    };
-
-    const closeMenu = () => {
-        setIsMenuOpen(false);
     };
 
     const toggleDarkMode = () => {
