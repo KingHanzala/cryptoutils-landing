@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const Hero = () => {
     return (
         <section className="bg-white dark:bg-gray-900 py-16 pt-24 mt-4"> {/* Updated */}
