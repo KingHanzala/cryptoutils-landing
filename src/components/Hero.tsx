@@ -10,7 +10,7 @@ export const Hero = () => {
                         Realising ideas that make web3 better and secure
                     </p>
                     <button
-                        onClick={() => window.open('https:x.com/cryptoutils', '_blank')}
+                        onClick={() => window.open('https://x.com/cryptoutils', '_blank')}
                         className="relative inline-flex items-center justify-center px-8 py-3 overflow-hidden text-lg font-medium text-white bg-primary-700 rounded-full hover:bg-primary-600 group focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
                     >
                         <span className="absolute left-0 block w-full h-0 transition-all bg-primary-800 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
