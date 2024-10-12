@@ -9,7 +9,7 @@ export default {
     require('daisyui'),
   ],
   daisyui: {
-    themes: ["retro"],
+    themes: ["lemonade"],
   }
 }
 
