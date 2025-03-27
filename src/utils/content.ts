@@ -1,10 +1,10 @@
 export const initiatives = [
     {
-        name: "AirdropInfo",
-        about: "AirdropInfo provides updates on upcoming airdrops and other crypto related news.",
-        purpose: "To provide a platform for crypto enthusiasts to earn crypto by providing them updates about airdrop campaigns and other crypto related news.",
-        link: "https://airdropinfo.cryptoutils.xyz/",
-        tag: "information"
+        name: "Solpe",
+        about: "Merchant Payments App on Solana",
+        purpose: "To provide a utility app which can provide an hassle free payment experience on Solana",
+        link: "https://solpe.cryptoutils.xyz/",
+        tag: "payments"
     },
     {
         name: "Verdancy",
