@@ -2,16 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body, #root {
-  height: 100%;
+body {
+  background-image: url('./assets/background.png'); /* Corrected path relative to index.css */
+  background-size: cover; /* Cover the entire page */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Keep image fixed during scroll */
+  background-repeat: no-repeat;
+}
+
+html {
+  height: 100%; /* Keep HTML height at 100% */
+}
+
+body, #root {
+  min-height: 100vh; /* Ensure body and root are at least viewport height */
   margin: 0;
 }
 
 #root {
   display: flex;
   flex-direction: column;
+  background-color: transparent; /* Explicitly set root background to transparent */
 }
 
 .main-content {
   flex: 1; /* This makes the main content take up remaining space */
+  padding-top: 5rem; /* Added padding-top (80px / pt-20) */
+  padding-bottom: 5rem; /* Added padding-bottom (80px / pb-20) */
 }

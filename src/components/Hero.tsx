@@ -1,19 +1,19 @@
 export const Hero = () => {
     return (
-        <section className="pb-12 pt-12 mt-4"> {/* Updated */}
-            <div className="flex justify-center items-center min-h-[70vh]">
-                <div className="max-w-screen-xl px-4 py-8 mx-auto text-center">
-                    <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+        <section className="py-20 md:py-28 bg-transparent">
+            <div className="container mx-auto px-4">
+                <div className="max-w-3xl mx-auto text-center bg-black/30 dark:bg-black/50 p-8 rounded-lg">
+                    <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-tight text-white md:text-5xl lg:text-6xl">
                         Your Web3 Toolbox
                     </h1>
-                    <p className="mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                    <p className="mb-8 text-lg font-light text-gray-200 lg:mb-10 md:text-xl lg:text-2xl dark:text-gray-300">
                         Let communities thrive again!
                     </p>
                     <button
                         onClick={() => window.open('https://docs.cryptoutils.xyz', '_blank')}
-                        className="btn btn-active btn-secondary"
+                        className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 transition duration-300 ease-in-out"
                     >
-                        <span className="relative z-10">Know more</span>
+                        Know more
                     </button>
                 </div>
             </div>

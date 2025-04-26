@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
         <Header/>
-      <main className="main-content">
+      <main className="main-content bg-transparent">
         <Routes>
         <Route path="/" element={<Home />} />
         </Routes>
