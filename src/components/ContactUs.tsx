@@ -14,8 +14,8 @@ const ContactUs: React.FC = () => {
             </div>
             <h3 className="mb-2 text-xl font-semibold text-gray-900 dark:text-white">Email Us</h3>
             <p className="text-gray-700 dark:text-gray-300 mb-4 flex-grow">Send us your questions or feedback.</p>
-            <a href="mailto:cryptoutils@gmail.com" className="mt-auto inline-flex items-center text-sm font-medium text-blue-600 hover:underline dark:text-blue-400">
-              cryptoutils@gmail.com
+            <a href="mailto:contact@cryptoutils.xyz" className="mt-auto inline-flex items-center text-sm font-medium text-blue-600 hover:underline dark:text-blue-400">
+              contact@cryptoutils.xyz
             </a>
           </div>
           <div className="flex-1 bg-white/70 dark:bg-gray-700/70 rounded-lg shadow-lg p-6 text-center flex flex-col items-center">
